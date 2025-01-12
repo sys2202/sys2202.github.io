@@ -1,25 +1,88 @@
 /* vision-style.css */
-body {
-    font-family: 'Playfair Display', serif;
+
+/* General Reset */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
+    box-sizing: border-box;
   }
   
+  body {
+    font-family: 'Playfair Display', serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  /* Header */
   header {
-    background-color: #563d7c;
+    background-color: #563d7c; /* Deep purple */
     color: white;
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem 0;
   }
   
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+  
+  /* Main Content */
   main {
     padding: 2rem;
+    text-align: center;
   }
   
-  footer {
+  main h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #563d7c;
+  }
+  
+  main p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+  }
+  
+  main a {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
     background-color: #563d7c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  main a:hover {
+    background-color: #6a4fab;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
     color: white;
     text-align: center;
     padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+  }
+  
+  /* Custom Material Icon Styling */
+  .material-icons {
+    vertical-align: middle;
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
   }
