@@ -70,7 +70,8 @@
   
   main .instructor-info {
     display: flex;
-    /* align-items: center; */
+    align-items: flex-start;
+    justify-content: flex-start;
     gap: 1rem;
     margin-bottom: 1.5rem;
   }
