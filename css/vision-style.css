@@ -431,3 +431,7 @@ span.pub_info, span.pub_info a{
 }
 
 
+.table th:first-child, 
+.table td:first-child {
+  width: 200px; 
+}
