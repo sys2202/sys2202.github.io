@@ -19,8 +19,9 @@
   header {
     background-color: white;
     /* text-align: center; */
-    padding: 2rem;
-    border-bottom: 1px solid #ddd;
+    /* padding: -0.5rem; */
+    /* border-bottom: 1px solid #ddd; */
+    border-bottom: none;
   }
   
   header img {
@@ -31,7 +32,7 @@
   header h1 {
     font-size: 2rem;
     color: #563d7c;
-    margin-bottom: 0.5rem;
+    /* margin-bottom: 0.5rem; */
   }
   
   header p {
@@ -59,11 +60,11 @@
   
   /* Main Content */
   main {
-    padding: 2rem;
+    padding: 0.5rem;
   }
   
   main h2 {
-    font-size: 1.5rem;
+    font-size: 0.5rem;
     color: #563d7c;
     margin-bottom: 1rem;
   }
